@@ -1,0 +1,20 @@
+Mission Maison Fabre — exercice interactif de la formation
+« Construire et piloter la trésorerie de son entreprise » (Horizon PME, 21 h)
+Même moteur et même charte que Mission Cabrol Rénovation et les missions STMG.
+
+GITHUB PAGES (dépôt conseillé : mission-tresorerie, compte saraguirlinger-bot)
+  Déposer à la racine : index.html, style.css, engine.js, data.js
+  Settings → Pages → branche main, dossier / (root)
+
+OVH (via FileZilla, au même endroit que save-eco.php)
+  Déposer les 3 fichiers du dossier filezilla/ :
+  save-tresorerie.php, get-tresorerie.php, delete-tresorerie.php
+  Le fichier results-tresorerie.json se crée tout seul au premier envoi.
+
+CONTENU
+  6 modules (un par objectif de la formation) + une synthèse, 20 activités, note sur 20.
+  Barème : M1 3 · M2 3,5 · M3 4 · M4 3 · M5 3,5 · M6 1,5 · Synthèse 1,5.
+  Tout le contenu (questions, réponses, indices, corrections) est dans data.js.
+
+ENSEIGNANT
+  Code de résultat : MF-35-XXXXX (35 demi-points = 17,5/20), vérifiable sur …/index.html#/prof
